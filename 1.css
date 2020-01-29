@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;} 
+.noidung{
+	display: flex;
+	flex-wrap: wrap;
+}
+.noidung .khoianh{
+	width: 25%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.noidung .nhandoi{
+	width: 50%;
+}
+.khoianh img{width:100%;}
+figcaption{
+	text-align: center;
+	padding: 2px;
+	background: lightblue;
+}
+.duocchon{
+	background: brown;
+}
+@media (max-width: 576px){
+	.noidung .khoianh{width: 100%;}
+	.noidung .nhandoi{width: 100%;}
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+	.noidung .khoianh{width: 50%;}
+}
